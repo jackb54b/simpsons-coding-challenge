@@ -22,11 +22,11 @@ public class DataStore implements Serializable {
         return dataStore;
     }
 
-    public static Map<String, Character> getCharacters() {
+    public Map<String, Character> getCharacters() {
         return characters;
     }
 
-    public static Map<String, Phrase> getPhrases() {
+    public Map<String, Phrase> getPhrases() {
         return phrases;
     }
 
