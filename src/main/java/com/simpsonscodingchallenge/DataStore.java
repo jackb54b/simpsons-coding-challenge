@@ -3,6 +3,7 @@ package com.simpsonscodingchallenge;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
+import com.simpsonscodingchallenge.character.Character;
 import com.simpsonscodingchallenge.phrase.Phrase;
 
 public class DataStore implements Serializable {

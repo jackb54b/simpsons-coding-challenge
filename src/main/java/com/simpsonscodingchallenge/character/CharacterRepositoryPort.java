@@ -1,4 +1,6 @@
-package com.simpsonscodingchallenge;
+package com.simpsonscodingchallenge.character;
+
+import com.simpsonscodingchallenge.BusinessException;
 
 import java.util.Collection;
 

@@ -1,5 +1,6 @@
-package com.simpsonscodingchallenge;
+package com.simpsonscodingchallenge.character;
 
+import com.simpsonscodingchallenge.BusinessException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;

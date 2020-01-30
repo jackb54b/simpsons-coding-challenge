@@ -1,5 +1,7 @@
-package com.simpsonscodingchallenge;
+package com.simpsonscodingchallenge.character;
 
+import com.simpsonscodingchallenge.BusinessException;
+import com.simpsonscodingchallenge.DataStore;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 

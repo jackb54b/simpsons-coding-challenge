@@ -1,4 +1,4 @@
-package com.simpsonscodingchallenge;
+package com.simpsonscodingchallenge.character;
 
 public class Character {
     public String firstName;
