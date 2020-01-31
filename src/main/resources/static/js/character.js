@@ -33,7 +33,7 @@ $(function() {
     function createCharacterTr(item) {
         var tr = '<tr><td>'+ item.id+ '</td><td>'+ item.firstName+ '</td><td>'+ item.lastName+ '</td><td>'+ item.age
         + '</td><td><a href="'+ item.picture + '" target="_blank">Picture</a>'
-            + '<td><button data-id="' + item.id + '"class="phraseCharacter btn btn-primary btn-block">Phrase</button></td>'
+            + '<td><button data-id="' + item.id + '"class="phraseCharacter btn btn-primary btn-block">Phrase</button></td>' //TODO
             + '<td><button data-id="' + item.id + '"class="deleteCharacter btn btn-primary btn-block">Delete</button></td>'
             + '<td><button data-id="' + item.id + '"class="editCharacter btn btn-primary btn-block">Edit</button></td></tr>'
         return tr;
