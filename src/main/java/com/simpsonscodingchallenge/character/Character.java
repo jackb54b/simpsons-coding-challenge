@@ -1,5 +1,7 @@
 package com.simpsonscodingchallenge.character;
 
+import org.json.simple.JSONObject;
+
 public class Character {
     public String firstName;
     public String lastName;
@@ -17,6 +19,14 @@ public class Character {
         this.lastName = lastName;
         this.picture = picture;
         this.age = age;
+    }
+
+    Character(JSONObject json) {
+        this.id = (String)json.get("id");
+        this.firstName = (String)json.get("firstName");
+        this.lastName = (String)json.get("lastName");
+        this.picture = (String)json.get("picture");
+        this.age = ((Long)json.get("age")).intValue();
     }
 
 }
